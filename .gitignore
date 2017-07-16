@@ -1,0 +1,6 @@
+node_modules
+.idea
+app/dist
+server/db
+coverage
+package-lock.json

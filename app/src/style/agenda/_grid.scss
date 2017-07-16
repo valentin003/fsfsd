@@ -1,0 +1,34 @@
+&--grid {
+	color: $azul-oscuro;
+	display: flex;
+	flex-direction: column;
+	padding: 0 10% 5%;
+
+	&_columnas, &_fila {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		border: 1px solid $gris;
+		padding: 0 8px;
+	}
+
+	&_columna, &_fila {
+		border-right: 1px solid opacify($gris, 0.5);
+	}
+
+	&_columna {
+		color: $verde-claro;
+		font-weight: 600;
+		&:last-child {
+			border: none;
+		}
+	}
+
+	&_celda {
+		align-self: center;
+	}
+
+	.delimiter-right {
+		border-right: 1px solid $gris;
+	}
+}

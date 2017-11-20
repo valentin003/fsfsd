@@ -4,6 +4,7 @@ import { render } from 'react-dom';
 import '../style/index.scss';
 
 import AppHeader from './components/AppHeader';
+import Agenda from './components/Agenda';
 
 class App extends React.Component {
 	constructor(props) {
@@ -14,6 +15,7 @@ class App extends React.Component {
 		return (
 			<div className="agenda">
 				<AppHeader />
+				<Agenda />
 			</div>
 		);
 	}

@@ -26,6 +26,21 @@
 
 	&_celda {
 		align-self: center;
+
+		.agenda--form {
+			&_barra_acciones {
+				.borde-primario {
+					margin-right: 8px;
+				}
+
+				@media only screen and (max-width: $media-small) {
+					.common--button {
+						font-size: 12px;
+						width: 72px;
+					}
+				}
+			}
+		}
 	}
 
 	.delimiter-right {

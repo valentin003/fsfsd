@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Spectral:400,700');
+//@import url('https://fonts.googleapis.com/css?family=Spectral:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
+$media-small: 767px;
+
+$anaranjado-claro: #FDE3A7;
+$anaranjado-oscuro: #E67E22;
 $azul: #0067B0;
 $azul-oscuro: #34495E;
 $azul-claro: #1297E0;
@@ -9,4 +14,5 @@ $verde-claro: #27AE60;
 $gris: #BDC3C7;
 $gris-claro: #ECF0F1;
 
-$font-spectral: 'Spectral', serif;
+//$font-spectral: 'Spectral', serif;
+$font-roboto: 'Roboto', sans-serif;

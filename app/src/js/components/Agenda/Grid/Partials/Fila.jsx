@@ -8,7 +8,7 @@ const Fila = ({ contacto, onEdit, onDelete }) => (
 		<div className="agenda--grid_celda delimiter-right grid--25">
 			{ contacto.nombre }
 		</div>
-		<div className="agenda--grid_celda delimiter-right grid--25">
+		<div className="agenda--grid_celda align-center delimiter-right grid--25">
 			{ contacto.celular }
 		</div>
 		<div className="agenda--grid_celda align-center grid--50">

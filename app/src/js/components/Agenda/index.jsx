@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 import Form from './Form';
 import Grid from './Grid';
@@ -10,13 +11,18 @@ class Agenda extends React.Component {
 	}
 
 	render() {
+		const { contactos } = this.props;
 		return (
 			<div className="agenda">
 				<Form />
-				<Grid contactos={ mockData } />
+				<Grid contactos={ contactos } />
 			</div>
 		);
 	}
 }
 
-export default Agenda;
+const mapStateToProps = (state) => ({
+	contactos: state.contactos.contactos,
+});
+
+export default connect(mapStateToProps)(Agenda);
